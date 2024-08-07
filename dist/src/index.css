@@ -1,0 +1,25 @@
+.calcu {
+  height: 560px;
+  width: 400px;
+}
+.rotate-on-hover {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+.rotate-on-hover:hover {
+  transform: rotate(360deg); /* Rotate 360 degrees on hover */
+}
+.canani {
+  transition: transform 0.3s ease;
+}
+.canani:hover {
+  transform: rotateY(18deg);
+}
+#display {
+  font-size: 2em;
+  text-align: right;
+  margin-right: 2em;
+
+  color: #0d262e;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}

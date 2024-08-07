@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cal {
+    @apply h-96 m-auto mt-60 w-40 bg-black;
+  }
+}

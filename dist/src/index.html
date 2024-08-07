@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculater</title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="../dist/styles.css" rel="stylesheet" />
+    <link rel="icon" href="images.png" />
+    <head>
+      <title>CALCULATER</title>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      />
+    </head>
+  </head>
+  <body class="bg-gray-800">
+    <div class="">
+      <div
+        class="calcu m-auto mt-32 shadow-2xl shadow-black hover:shadow-2xl hover:shadow-pink-500 bg-black rounded-2xl"
+      >
+        <div class="v">
+          <input
+            id="display"
+            type=" text"
+            disabled
+            class="mt-5 ml-4 h-28 w-11/12 bg-gray-500"
+          />
+        </div>
+
+        <div class="font-serif h-96 w-11/12 ml-4 mt-6">
+          <button
+            class="deletbtn h-14 w-40 rounded-md bg-pink-300 text-red-800 text-2xl hover:shadow-2xl hover:shadow-green-300"
+            data-value=" 🗑"
+          >
+            <!-- 🗑 -->
+            C
+          </button>
+
+          <button
+            class="erasebtn h-14 w-36 rounded-md bg-orange-400 text-black font-bold ml-12 text-3xl hover:shadow-2xl hover:shadow-red-400"
+            data-value="d"
+          >
+            ⌫
+          </button>
+
+          <div class="h-16 mt-3">
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white text-2xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="9"
+            >
+              9
+            </button>
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-white"
+              data-value="8"
+            >
+              8
+            </button>
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-white"
+              data-value="7"
+            >
+              7
+            </button>
+            <button
+              class="opbtn h-14 w-20 rounded-md bg-gray-700 text-white ml-2 hover:shadow-2xl hover:shadow-white"
+              data-value="/"
+            >
+              /
+            </button>
+          </div>
+          <div class="h-16 mt-3">
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white text-2xl hover:shadow-2xl hover:shadow-red-300"
+              data-value="6"
+            >
+              6
+            </button>
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-red-300"
+              data-value="5"
+            >
+              5
+            </button>
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-red-300"
+              data-value="4"
+            >
+              4
+            </button>
+            <button
+              class="opbtn h-14 w-20 bg-gray-700 rounded-md text-white ml-2 hover:shadow-2xl hover:shadow-red-300"
+              data-value="*"
+            >
+              *
+            </button>
+          </div>
+          <div class="h-16 mt-3">
+            <button
+              class="number h-14 w-20 bg-gray-700 rounded-md text-white text-2xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="1"
+            >
+              1
+            </button>
+            <button
+              class="number h-14 w-20 bg-gray-700 rounded-md text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="2"
+            >
+              2
+            </button>
+            <button
+              class="number h-14 w-20 bg-gray-700 rounded-md text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="3"
+            >
+              3
+            </button>
+            <button
+              class="opbtn h-14 w-20 bg-gray-700 rounded-md text-white ml-2 hover:shadow-2xl hover:shadow-green-300"
+              data-value="-"
+            >
+              -
+            </button>
+          </div>
+          <div class="h-16 mt-3">
+            <button
+              class="number h-14 w-20 bg-gray-700 rounded-md text-white text-4xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="."
+            >
+              .
+            </button>
+            <button
+              class="number h-14 w-20 rounded-md bg-gray-700 text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="0"
+            >
+              0
+            </button>
+            <button
+              id="eqlitybtn"
+              class="h-14 w-20 rounded-md bg-gray-700 text-white ml-3 text-2xl hover:shadow-2xl hover:shadow-green-300"
+              data-value="="
+            >
+              =
+            </button>
+            <button
+              class="opbtn h-14 w-20 rounded-md bg-gray-700 text-white ml-2 hover:shadow-2xl hover:shadow-green-300"
+              data-value="+"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-56 text-center text-white font-mono">
+      Made with 🤍 by Kal 2024
+      <a href="">
+        <i class="fa-brands fa-github text-2xl rotate-on-hover"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
